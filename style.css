@@ -42,16 +42,17 @@ header h1 span{
 
 /* Showcase */
 .showcase{
-    background:#e4d4d4;
+    background:#d4c7c7;
 }
 .container{
     width:90%;
     margin:0 0 0 auto;
+    padding:20px;
     display:flex;
     justify-content: start;
 }
 .main-text{
-    padding-top:50px;
+    padding-top:30px;
     font-size:25px;
     width:400px;
 }
@@ -60,23 +61,24 @@ header h1 span{
     padding-bottom:15px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-size:14px;
-    font-weight: 100;
+    font-size:12px;
+    font-weight: 240;
 }
 .main-text p span{
     background:#ee5914;
     color:#fff;
-    padding:2px 4px;
+    padding:3px 5px;
     border-radius: 4px;
 }
 .main-text h1{
-    font-size:50px;
+    font-size:51px;
     padding:15px 0;
-    font-weight:540;
+    font-weight:550;
     letter-spacing: 1px;
 }
 img{
     width:520px;
+    margin-top:0;
 }
 button{
     margin-top:20px;
