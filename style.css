@@ -3,6 +3,9 @@
     padding:0;
     box-sizing:border-box;
 }
+body{
+    font-family:arial, Helvetica;
+}
  
 /* NavBar*/
 
@@ -11,7 +14,11 @@ header{
     display:flex;
     justify-content: space-around;
     align-items: center;
+    padding-top:10px;
     text-transform:uppercase;
+}
+header h1{
+    font-size:25px;
 }
 ul{
     list-style-type:none;
@@ -22,7 +29,7 @@ a{
 }
 ul li{
     display:inline;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 300;
     padding:10px;
 
@@ -40,14 +47,20 @@ header h1 span{
     width:90%;
     margin:0 0 0 auto;
     display:flex;
-    justify-content: center;
+    justify-content: start;
 }
 .main-text{
     padding-top:50px;
+    font-size:25px;
+    width:400px;
 }
 .main-text p{
-    padding:20px 0;
+    padding-top:60px;
+    padding-bottom:15px;
     text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size:14px;
+    font-weight: 100;
 }
 .main-text p span{
     background:#ee5914;
@@ -55,11 +68,25 @@ header h1 span{
     padding:2px 4px;
     border-radius: 4px;
 }
-.deliver-image{
-    width:750px;
-    background:red;
-    height:300px;
+.main-text h1{
+    font-size:50px;
+    padding:15px 0;
+    font-weight:540;
+    letter-spacing: 1px;
 }
 img{
-    width:500px;
+    width:520px;
+}
+button{
+    margin-top:20px;
+    background:#f55c15;
+    padding:10px 22px;
+    border:none;
+    border-radius: 5px;
+    color:#fff;
+    font-size:11px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    text-transform: uppercase;
+
 }
